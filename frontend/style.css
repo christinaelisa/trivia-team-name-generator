@@ -10,6 +10,36 @@
 h1 {
   color: red;
   font-family: "FineOrange", sans-serif;
-  text-align: center;
   margin: 5vh;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+button {
+  border-radius: 5px;
+  color: red;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 3vh;
+  padding: 2vh;
+  text-align: center;
+}
+
+button:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0.1, 0.1);
+  transform: translateY(2px);
+}
+
+button:hover {
+  background-color: #eee7e7;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#team-name {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 3vh;
 }

@@ -23,8 +23,9 @@ const teamNames = [
 ];
 
 const btn = document.createElement("button");
+
 const nameDisplay = document.createElement("div");
-nameDisplay.id = "randomFruit";
+nameDisplay.id = "team-name";
 document.body.appendChild(nameDisplay);
 
 function addButton() {
