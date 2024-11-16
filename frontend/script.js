@@ -24,9 +24,11 @@ const teamNames = [
 
 const btn = document.createElement("button");
 
-const nameDisplay = document.createElement("div");
-nameDisplay.id = "team-name";
-document.body.appendChild(nameDisplay);
+// const nameDisplay = document.createElement("div");
+// nameDisplay.id = "team-name";
+// document.body.appendChild(nameDisplay);
+
+const nameDisplay = document.getElementById("name-display");
 
 function addButton() {
   const text = "Pick a team name!";

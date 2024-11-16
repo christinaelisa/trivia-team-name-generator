@@ -7,24 +7,20 @@
   background-color: #f5f5f5;
 }
 
-h1 {
+#app-header {
   color: red;
   font-family: "FineOrange", sans-serif;
-  margin: 5vh;
-  text-align: center;
-}
-
-body {
+  font-size: 5vh;
   text-align: center;
 }
 
 button {
-  border-radius: 5px;
+  border-radius: 1.75rem;
   color: red;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 3vh;
-  padding: 2vh;
+  font-size: 2.25vh;
+  padding: 1rem 3rem;
   text-align: center;
 }
 
@@ -39,8 +35,19 @@ button:hover {
   cursor: pointer;
 }
 
-#team-name {
+#container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 75vh;
+  width: 100vw;
+}
+
+#name-display {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 3vh;
+  font-size: 2.5vh;
+  margin: 1vh;
 }
